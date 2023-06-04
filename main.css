@@ -1,0 +1,70 @@
+:root {
+  --cor-fonte: #fff;
+  --cor-principal: #41644a;
+  --cor-fundo: #d4cacd;
+  --cor-pagina: #fefefe;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--cor-pagina);
+}
+
+.navbar {
+  background-color: var(--cor-principal);
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: var(--cor-principal);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+  color: var(--cor-fonte);
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.section-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+#sobre-o-restaurante,
+#servicos {
+  background-color: var(--cor-fundo);
+}
+
+.text-colored {
+  color: var(--cor-principal);
+}
+
+.nav-servicos .nav-link.active,
+#Envio,
+#fale-conosco button {
+  background-color: var(--cor-principal);
+  color: var(--cor-fonte);
+}
+
+.nav-servicos .nav-link:hover {
+  color: var(--cor-principal);
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
